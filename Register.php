@@ -60,7 +60,7 @@
 	<br>
 	<hr>
 	<div>
-	<form method="post" onsubmit="return validateForm()" action="Home.php">
+	<form method="post" onsubmit="return validateForm()" action="">
 
 		<label class="MyLabel">Email</label>
 		<input type="text" name="email" placeholder="Enter email" id="email">
