@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.simple-blended {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header {
+    width: 100%;
+    background-color: #333; /* You can change the background color */
+    color: #fff; /* You can change the text color */
+    padding: 15px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    text-decoration: none;
+    color: #fff; /* You can change the text color */
+    font-size: 24px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #fff; /* You can change the text color */
+    margin: 0 15px;
+    font-size: 16px;
+}
+
+.navbar button {
+    margin-left: auto; /* This will push the button to the right edge */
+    padding: 10px 20px;
+    background-color: #007BFF; /* You can change the background color */
+    color: #fff; /* You can change the text color */
+    border: none;
+    cursor: pointer;
+}
+
+.social-media {
+    margin-left: auto;
+    display: flex;
+}
+
+.social-media a {
+    text-decoration: none;
+    color: #fff; /* You can change the text color */
+    margin-left: 15px;
+}
+
+/* Add additional styles as needed */

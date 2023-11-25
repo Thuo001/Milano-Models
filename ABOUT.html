@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Milano Models</title>
+    <link rel="stylesheet" href="ABOUT.css">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        section {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            min-height: 100vh;
+            background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('back.jpg');
+            background-size: cover;
+            background-position: center;
+            color: #fff;
+            text-align: center;
+            padding: 50px;
+        }
+
+        h1 {
+            font-size: 3rem;
+            color: #5f84a2;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 1.5rem;
+            color: #eee;
+            font-weight: 500;
+            margin-bottom: 40px;
+        }
+
+        .section .animate {
+            transition: 1s;
+        }
+
+        .sec-1 .animate {
+            transform: translateX(-100%);
+        }
+
+        .sec-1.show-animate .animate {
+            transform: translateX(0);
+        }
+
+        .sec-2 h1,
+        .sec-3 h1,
+        .sec-4 h1,
+        .sec-5 h1,
+        .sec-6 h1 {
+            font-size: 2rem;
+            color: #5f84e2;
+            margin-bottom: 20px;
+        }
+
+        .sec-2 p,
+        .sec-3 p,
+        .sec-4 p,
+        .sec-5 p,
+        .sec-6 p {
+            font-size: 1rem;
+            color: #eee;
+            font-weight: 400;
+            margin-bottom: 40px;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="section">
+
+        <section class="sec-1 show-animate">
+            <h1 class="animate">Welcome!!!</h1>
+            <p class="animate">Discover the Unique World of Milano Models!</p>
+        </section>
+
+        <section class="sec-2">
+            <h1 class="animate">Alternative Modeling</h1>
+            <p class="animate">Explore non-traditional approaches, techniques, and creativity in modeling. Embrace uniqueness!</p>
+            <img src="alt1.jpg" alt="Alternative Modeling Image 1">
+            <img src="alt2.jpg" alt="Alternative Modeling Image 2">
+            <img src="alt3.jpg" alt="Alternative Modeling Image 3">
+        </section>
+
+        <section class="sec-3">
+		<h1 class="animate">Commercial Modelling</h1>
+		<p class="animate">The representation and promotion of products, services, or brands through visual means, typically in a relatable and mainstream style, with the aim of appealing to a broad consumer audience.</p>
+		<img src="com1.jpg">
+		<img src="com2.jpg">
+		<img src="com4.jpg">
+	</section>
+
+	<section class="sec-4">
+		<h1 class="animate">Editorial Modelling</h1>
+		<p class="animate">The practice of showcasing and promoting fashion, beauty, and lifestyle products through the creation of visually compelling and narrative-driven content in the form of photographs or videos, typically for publication in magazines, online platforms, or other editorial outlets.</p>
+		<img src="ed1.jpg">
+		<img src="ed2.jpg">
+		<img src="ed4.jpg">
+	</section>
+
+	<section class="sec-5">
+		<h1 class="animate">Fitness Modelling</h1>
+		<p class="animate">Form of modeling that emphasizes a toned and athletic physique, showcasing physical fitness, health, and well-being through various poses and activities.</p>
+		<img src="fit1.jpg">
+		<img src="fit2.jpg">
+		<img src="fit3.jpg">
+	</section>
+
+	<section class="sec-6">
+		<h1 class="animate">Runnway Modelling</h1>
+		<p class="animate">Showcasing and presenting fashion garments and accessories by models walking down a designated runway or platform during a fashion show, emphasizing grace, poise, and the effective display of the designer's creations.</p>
+		<img src="run1.jpg">
+		<img src="run2.jpg">
+		<img src="run3.jpg">
+	</section>
+
+    </div>
+
+    <script src="ABOUT.js"></script>
+</body>
+
+</html>
